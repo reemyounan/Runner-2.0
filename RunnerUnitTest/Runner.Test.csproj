@@ -62,10 +62,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RunnerShould.cs" />
     <Compile Include="GetSortedStringShould.cs" />
     <Compile Include="GetUpperCaseShould.cs" />
     <Compile Include="MultipleOfXShould.cs" />
+    <Compile Include="DynamicDecoratorShould.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
