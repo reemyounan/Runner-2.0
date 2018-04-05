@@ -110,7 +110,7 @@ namespace RunnerUnitTest.MultiplesOfX
             _mockProblem.Setup(x => x.CheckInputValidity(Moq.It.IsAny<string>())).Returns(() => true);
 
             RC.MultiplesOfX MultipleOf3 = new RC.MultiplesOfX(_mockProblem.Object, 3);
-            string expected = "30" ;
+            string expected = "30";
 
             //act
             object actual = MultipleOf3.Solve("15").ToString();
@@ -118,7 +118,7 @@ namespace RunnerUnitTest.MultiplesOfX
             //assert
             Assert.AreEqual(expected, actual);
         }
-        
+
         [TestMethod]
         public void solve_WhenSumWillExceedIntMaxValue()
         {
