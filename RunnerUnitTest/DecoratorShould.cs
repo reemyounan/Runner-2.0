@@ -4,10 +4,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace RunnerUnitTest
 {
     [TestClass]
-    public class DynamicDecoratorShould
+    public class DecoratorShould
     {
         [TestMethod]
-        public void TestMethod1()
+        public void attachGetSortedString()
         {
         }
     }

@@ -65,7 +65,7 @@
     <Compile Include="GetSortedStringShould.cs" />
     <Compile Include="GetUpperCaseShould.cs" />
     <Compile Include="MultipleOfXShould.cs" />
-    <Compile Include="DynamicDecoratorShould.cs" />
+    <Compile Include="DecoratorShould.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
