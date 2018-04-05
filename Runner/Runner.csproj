@@ -51,7 +51,7 @@
     <Compile Include="Helpers\StringValidationExtension.cs" />
     <Compile Include="Problem\Problem.cs" />
     <Compile Include="Problem\ProblemFactory.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Runner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

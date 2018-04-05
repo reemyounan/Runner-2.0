@@ -7,7 +7,7 @@ using Runner.Helpers;
 
 namespace Runner.ConcreteProblem
 {
-    class SumOfMultiples : Problem.Problem
+    public class SumOfMultiples : Problem.Problem
     {
         public SumOfMultiples() => ProblemStatement =
             "Sum Of Multiple: Sum of multiples of";
@@ -27,7 +27,7 @@ namespace Runner.ConcreteProblem
         public override string GetProblemStatement() => ProblemStatement;
 
         public override object Solve(string input) => input;
-        public override bool isSatisfied(string input) => false;
+       public override bool isSatisfied(string input) => false;
 
     }
 }

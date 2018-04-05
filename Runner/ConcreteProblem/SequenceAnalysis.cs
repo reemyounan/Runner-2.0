@@ -7,9 +7,9 @@ using Runner.Helpers;
 
 namespace Runner.ConcreteProblem
 {
-    class SequenceAnalysis : Problem.Problem
+    public class SequenceAnalysis : Problem.Problem
     {
-        public SequenceAnalysis() => ProblemStatement = "Sequence Analysis: ";
+        public SequenceAnalysis() => ProblemStatement = "Sequence Analysis:";
 
         public override bool CheckInputValidity(string input)
         {
@@ -25,6 +25,6 @@ namespace Runner.ConcreteProblem
         }
         public override string GetProblemStatement() => ProblemStatement;
         public override object Solve(string input) => input;
-        public override bool isSatisfied(string input) => false;
+       public override bool isSatisfied(string input) => false;
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Runner.Decorator
 {
-    class StepDecorator : Problem.Problem
+    public class StepDecorator : Problem.Problem
     {
         protected Problem.Problem _problem;
 
@@ -18,6 +18,6 @@ namespace Runner.Decorator
             return _problem.Solve(input);
         }
         public override bool CheckInputValidity(string input) => _problem.CheckInputValidity(input);
-        public override bool isSatisfied(string input) => _problem.isSatisfied(input);
+       public override bool isSatisfied(string input) => _problem.isSatisfied(input);
     }
 }

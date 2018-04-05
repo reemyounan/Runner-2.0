@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Runner
 {
-    class Program
+    class Runner
     {
         static void Main(string[] args)
         {

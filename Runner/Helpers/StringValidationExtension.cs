@@ -24,10 +24,10 @@ namespace Runner.Helpers
             }
             catch
             {
-                throw new Exception("Invalid input, please make sure to enter a natural number");
+                throw new Exception("Invalid input, please make sure to enter a natural number.");
             }
-            if (longInput < 0)
-                throw new Exception("Invalid input, the input cannot be negative");
+            if (longInput <= 0)
+                throw new Exception("Invalid input, the input cannot be negative or zero.");
 
             return true;
         }

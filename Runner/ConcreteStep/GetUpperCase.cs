@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace Runner.ConcreteStep
 {
-    class GetUpperCase : StepDecorator
+    public class GetUpperCase : StepDecorator
     {
-        public GetUpperCase(Problem.Problem problem) : base(problem) => ProblemStatement = $" upper case words ";
+        public GetUpperCase(Problem.Problem problem) : base(problem) => ProblemStatement = $"upper case words";
 
         public override string GetProblemStatement() => $"{_problem.GetProblemStatement()} {ProblemStatement}";
         public override bool isSatisfied(string input) => (input.All(c => char.IsUpper(c)));
