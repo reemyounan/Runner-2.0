@@ -42,11 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConcreteStep\GetSortedString.cs" />
+    <Compile Include="ConcreteStep\MultipleOfX.cs" />
+    <Compile Include="ConcreteStep\GetUpperCase.cs" />
+    <Compile Include="ConcreteProblem\SequenceAnalysis.cs" />
+    <Compile Include="ConcreteProblem\SumOfMultiples.cs" />
+    <Compile Include="Decorator\StepDecorator.cs" />
+    <Compile Include="Helpers\StringValidationExtension.cs" />
+    <Compile Include="Problem\Problem.cs" />
+    <Compile Include="Problem\ProblemFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
